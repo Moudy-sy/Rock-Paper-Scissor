@@ -83,4 +83,4 @@ function updateScore() {
     document.getElementById("losses").innerText = `Losses: ${score.losses}`;
     document.getElementById("ties").innerText = `Ties: ${score.ties}`;
 }
-setInterval(updateScore, 100); // update every 1000 milliseconds (1 second)
+setInterval(updateScore, 100); // update every 100 milliseconds (1 second)
