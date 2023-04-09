@@ -80,7 +80,7 @@ function pickComputerMove() {
 
 function updateScore() {
     document.getElementById("win").innerText = `Wins: ${score.wins}`;
-    document.getElementById("losses").innerText = `Looses: ${score.losses}`;
+    document.getElementById("losses").innerText = `Losses: ${score.losses}`;
     document.getElementById("ties").innerText = `Ties: ${score.ties}`;
 }
 setInterval(updateScore, 100); // update every 1000 milliseconds (1 second)
