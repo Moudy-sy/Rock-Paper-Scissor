@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    height: 20vw;
+    max-height: 150px;
+    width: 20vw;
+    max-width: 150px;
+    border-radius: 100%;
+    border-color: white;
+    margin: 5vw;
+}
+
+img {
+    height: 8vw;
+    max-height: 80px;
+}
+
+.centre {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.scores {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores button {
+    width: 10vw;
+    max-width: 100px;
+    height: 10vw;
+    max-height: 100px;
+    font-size: 10px
+}
+
+@media screen and (min-width: 768px) {
+    button {
+        height: 150px;
+        width: 150px;
+        margin: 50px;
+    }
+
+    img {
+        height: 80px;
+    }
+
+    .centre {
+        flex-wrap: nowrap;
+    }
+
+    .scores button {
+        width: 200px;
+        height: 200px;
+        font-size: 15px;
+    }
+}
