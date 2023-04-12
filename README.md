@@ -1,5 +1,5 @@
 # Rock-Paper-Scissor
-Rock Paper Scissor Game
+To play the game
 
 Visit the link to see the project: 
 #####
